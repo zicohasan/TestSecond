@@ -99,9 +99,9 @@ public class MainActivity extends AppCompatActivity
             // Handle the camera action
             fragmentManager.beginTransaction().replace(R.id.content_frame, new Simple1Fragment()).commit();
         } else if (id == R.id.nav_second_layout) {
-            fragmentManager.beginTransaction().replace(R.id.content_frame, new Simple2Fragment()).commit();
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new Medium1Fragment()).commit();
         } else if (id == R.id.nav_third_layout) {
-            fragmentManager.beginTransaction().replace(R.id.content_frame, new Simple3Fragment()).commit();
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new Complex1Fragment()).commit();
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {

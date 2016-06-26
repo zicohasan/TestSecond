@@ -176,7 +176,7 @@ public abstract class SimpleFragment extends Fragment implements OnChartValueSel
 
     @Override
     public void onNothingSelected() {
-        //mySound.release();
+        playmp(e.getVal());
         //Log.i("Nothing selected", "Nothing selected.");
     }
 }
