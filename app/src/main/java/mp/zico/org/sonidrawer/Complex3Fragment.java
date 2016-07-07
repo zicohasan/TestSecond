@@ -11,14 +11,41 @@ public class Complex3Fragment extends SimpleFragment {
     public Complex3Fragment() {
         data.add(20F);
         data.add(40F);
-        data.add(60F);
+        data.add(60f);
         data.add(40F);
         data.add(30F);
         data.add(20F);
+        data.add(40F);
+        data.add(60f);
+        data.add(40F);
+        data.add(30F);
+        data.add(20F);
+        data.add(15F);
+        data.add(40F);
+        data.add(60f);
+        data.add(40F);
+        data.add(30F);
+        data.add(20F);
+        data.add(40F);
+        data.add(60f);
+        data.add(40F);
+        data.add(30F);
+        data.add(20F);
+        data.add(40F);
+        data.add(30F);
+        data.add(20F);
+        data.add(40F);
+        data.add(45f);
+        data.add(40F);
+        data.add(30F);
+        data.add(40F);
+        data.add(60f);
+        data.add(40F);
+        data.add(30F);
     }
 
     public void next() {
-        Fragment fragment = new Complex1Fragment();
+        Fragment fragment = new Complex4Fragment();
         FragmentTransaction transaction = getFragmentManager().beginTransaction();
         transaction.replace(R.id.content_frame, fragment).commit();
     }

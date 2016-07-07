@@ -29,7 +29,7 @@ import java.util.TimerTask;
 public abstract class SimpleFragment extends Fragment implements OnChartValueSelectedListener, SeekBar.OnSeekBarChangeListener {
 
     private LineChart mChart;
-    private SeekBar mSeekBar;
+    private SeekBar mSeekBar, mSeekBar2;
     private TextView tvX;
     SoundPool mySound;
     int raygunID;
@@ -76,6 +76,11 @@ public abstract class SimpleFragment extends Fragment implements OnChartValueSel
         mSeekBar.setMax(5);
         mSeekBar.setProgress(1);
         mSeekBar.setOnSeekBarChangeListener(this);
+
+        mSeekBar2 = (SeekBar) getView().findViewById(R.id.seekBar2);
+        mSeekBar2.setMax(5);
+        mSeekBar2.setProgress(1);
+        mSeekBar2.setOnSeekBarChangeListener(this);
 
         mChart = (LineChart) getView().findViewById(R.id.chart);
         mChart.setOnChartValueSelectedListener(this);
@@ -131,7 +136,7 @@ public abstract class SimpleFragment extends Fragment implements OnChartValueSel
                     }
                 };
                 //Starting Timer
-                timer.scheduleAtFixedRate(time, 0, 500);
+                timer.scheduleAtFixedRate(time, 0, mSeekBar2.getProgress()*500);
 
 
             }

@@ -15,6 +15,14 @@ public class Medium2Fragment extends SimpleFragment {
         data.add(40F);
         data.add(30F);
         data.add(20F);
+        data.add(40F);
+        data.add(60F);
+        data.add(40F);
+        data.add(30F);
+        data.add(20F);
+        data.add(40F);
+        data.add(60F);
+        data.add(40F);
     }
 
     public void next() {
