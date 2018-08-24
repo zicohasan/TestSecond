@@ -1,4 +1,4 @@
-package mp.zico.org.sonidrawer;
+package mp.zico.org.sonidrawerlay;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

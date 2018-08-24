@@ -1,9 +1,7 @@
-package mp.zico.org.sonidrawer;
+package mp.zico.org.sonidrawerlay;
 
 import android.app.Fragment;
 import android.app.FragmentTransaction;
-
-import java.util.ArrayList;
 
 /**
  * Created by zico on 22/06/2016.
@@ -11,12 +9,12 @@ import java.util.ArrayList;
 public class Simple1Fragment extends SimpleFragment {
 
     public Simple1Fragment() {
-        data.add(20F);
-        data.add(40F);
-        data.add(60F);
-        data.add(40F);
-        data.add(30F);
-        data.add(20F);
+        data.add(2F);
+        data.add(4F);
+        data.add(6F);
+        data.add(4F);
+/*        data.add(30F);
+        data.add(20F);*/
     }
 
     public void next() {

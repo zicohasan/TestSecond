@@ -1,4 +1,4 @@
-package mp.zico.org.sonidrawer;
+package mp.zico.org.sonidrawerlay;
 
 import android.app.Fragment;
 import android.app.FragmentTransaction;
@@ -9,20 +9,20 @@ import android.app.FragmentTransaction;
 public class Medium2Fragment extends SimpleFragment {
 
     public Medium2Fragment() {
-        data.add(20F);
-        data.add(40F);
-        data.add(60F);
-        data.add(40F);
+        data.add(2F);
+        data.add(3F);
+        data.add(5F);
+        data.add(4F);
+        data.add(3F);
+        data.add(1F);
+        data.add(4F);
+        data.add(6F);
+    /*    data.add(40F);
         data.add(30F);
         data.add(20F);
-        data.add(40F);
-        data.add(60F);
-        data.add(40F);
         data.add(30F);
-        data.add(20F);
         data.add(40F);
-        data.add(60F);
-        data.add(40F);
+        data.add(20F);*/
     }
 
     public void next() {
